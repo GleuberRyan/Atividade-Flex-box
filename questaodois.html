@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            gap: 10px;
+        }
+        
+        .flex-containter{
+            display: flex;
+            justify-content: column;
+            height: 100%;
+            align-items: center;
+        }
+        
+        div{
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #parte1{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            background-color: red;
+            border: 1px solid black;
+        }
+
+        #parte2{
+            width: 100px;
+            height: 150px;
+            text-align: center;
+            background-color: pink;
+            border: 1px solid black;
+        }
+
+        #parte3{
+            width: 100px;
+            text-align: center;
+            background-color: green;
+            border: 1px solid black;
+            height: 200px;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Questão 2</h1>
+        <main class="flex-containter">
+            <div id="parte1">Parte 1</div>
+            <div id="parte2">Parte 2</div>
+            <div id="parte3">Parte 3</div>
+        </main>
+        <br><br>
+        
+    <br><br>  
+    </body>
+
+</html>
+
+    
+           

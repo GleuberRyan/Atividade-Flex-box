@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        main{
+            border: 1px solid black;
+            flex-direction: row;
+            display: flex;
+        }
+        
+        .flex-containter{
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            height: 100%;
+            align-items: center;
+        }
+        
+        div{
+            width: 100px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #parte1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 1px solid black;
+    
+        }
+
+        #parte2{
+            width: 100px;
+            height: 100px;
+            align-self: center;
+            background-color: pink;
+            border: 1px solid black;
+        }
+
+        #parte3{
+            width: 100px;
+            height: 100px;
+            align-self: center;
+            background-color: green;
+            border: 1px solid black;
+        }
+
+        #parte4{
+            height: 100px;
+            width: 100%;
+            align-self: center;
+            background-color: aqua;
+            border: 1px solid black;
+        
+        }
+
+    </style>
+</head>
+    <body>
+        <h1>Questão 3</h1>
+        <main class="flex-containter">
+            <div id="parte1">Parte 1</div>
+            <div id="parte2">Parte 2</div>
+            <div id="parte3">Parte 3</div>
+            <div id="parte4">Parte 4</div>
+        </main>
+        <br><br>
+        
+    <br><br>  
+    </body>
+
+</html>
+
+    
+           
